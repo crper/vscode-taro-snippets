@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Code snippets for Taro",
   "displayName": "vscode-taro-snippets",
-  "publisher": "swyx",
+  "publisher": "crper",
   "icon": "images/taro.png",
   "galleryBanner": {
     "theme": "light"
