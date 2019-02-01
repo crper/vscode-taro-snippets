@@ -1,3 +1,6 @@
+[![Version](http://vsmarketplacebadge.apphb.com/version/crper.vscode-taro-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=crper.vscode-taro-snippets)
+[![Install](http://vsmarketplacebadge.apphb.com/installs-short/crper.vscode-taro-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=crper.vscode-taro-snippets)
+
 # VSCode-taro-snippets
 
 为了少敲重复代码,节约时间,这个东东就出来了;
@@ -16,7 +19,7 @@
 
 # 效果
 
-![演示Demo](./images/show.gif)
+![演示Demo](images/show.gif)
 
 
 ---
