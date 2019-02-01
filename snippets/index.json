@@ -1,0 +1,102 @@
+{
+  "taro-init": {
+    "prefix": "tarocc",
+    "body": [
+      "import Taro , { Component } from '@tarojs/taro';",
+      "import { View, Text , Button} from '@tarojs/components';",
+      "",
+      "export default class ${1:Index} extends Component {",
+      "",
+      "   config = {",
+      "       navigationBarTitleText: '$2'",
+      "  }",
+      "",
+      "  state={}",
+      "",
+      "  componentWillMount () {}",
+      "  componentDidMount () {} ",
+      "  componentWillReceiveProps (nextProps,nextContext) {} ",
+      "  componentWillUnmount () {} ",
+      "  componentDidShow () {} ",
+      "  componentDidHide () {} ",
+      "  componentDidCatchError () {} ",
+      "  componentDidNotFound () {} ",
+      "  render() {",
+      "    return (",
+      "      <View>",
+      "        $3",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      "export default $1;"
+    ],
+    "description": "taro初始化模板(Component)"
+  },
+  "taro-init-purecomponent": {
+    "prefix": "taropc",
+    "body": [
+      "import Taro , { PureComponent } from '@tarojs/taro';",
+      "import { View, Text , Button} from '@tarojs/components';",
+      "",
+      "class ${1:Index} extends PureComponent {",
+      "",
+      "   config = {",
+      "       navigationBarTitleText: '$2'",
+      "  }",
+      "",
+      "  state={}",
+      "",
+      "  componentWillMount () {}",
+      "  componentDidMount () {} ",
+      "  componentWillReceiveProps (nextProps,nextContext) {} ",
+      "  componentWillUnmount () {} ",
+      "  componentDidShow () {} ",
+      "  componentDidHide () {} ",
+      "  componentDidCatchError () {} ",
+      "  componentDidNotFound () {} ",
+      "  render() {",
+      "    return (",
+      "      <View>",
+      "        $3",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      "export default $1;"
+    ],
+    "description": "taro初始化模板(PureComponent)"
+  },
+  "taro-app-config": {
+    "prefix": "taroaf",
+    "body": [
+      "config = {",
+      "  pages: [",
+      "    'pages/index/index'",
+      "    '$1'",
+      "     ],",
+      "window: {",
+          "backgroundTextStyle: 'light',",
+          "navigationBarBackgroundColor: '#fff',",
+          "navigationBarTitleText: 'WeChat',",
+          "navigationBarTextStyle: 'black'",
+         "}",
+      "}"
+    ],
+    "description": "taro App config"
+  },
+  "import connect from tarojs/redux": {
+    "prefix": "taroir",
+    "body": [
+      "import { connect } from '@tarojs/redux'"
+    ],
+    "description": "从@tarojs/redux引入connect"
+  },
+  "import connect from @tarojs/mobx": {
+    "prefix": "taroim",
+    "body": [
+      "import {inject, observer} from '@tarojs/mobx'"
+    ],
+    "description": "从@tarojs/mobx引入inject/observer"
+  }
+}

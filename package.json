@@ -1,0 +1,61 @@
+{
+  "name": "vscode-taro-snippets",
+  "version": "0.0.1",
+  "description": "Code snippets for Taro",
+  "displayName": "vscode-taro-snippets",
+  "publisher": "swyx",
+  "icon": "images/taro.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw-yx/swyx-react-typescript-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "taro",
+    "vscode",
+    "typescript",
+    "vscode-extension",
+    "taro-snippets",
+    "miniapp",
+    "wechat",
+    "react native"
+  ],
+  "author": {
+    "name": "crper(QunHe Lin)",
+    "email": "crper@outlook.com",
+    "url": "https://github.com/crper"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crper/vscode-taro-snippets/issues"
+  },
+  "homepage": "https://github.com/crper/vscode-taro-snippets#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
