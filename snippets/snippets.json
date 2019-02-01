@@ -75,7 +75,7 @@
       "    'pages/index/index'",
       "    '$1'",
       "     ],",
-      "window: {",
+      "  window: {",
           "backgroundTextStyle: 'light',",
           "navigationBarBackgroundColor: '#fff',",
           "navigationBarTitleText: 'WeChat',",
@@ -92,11 +92,32 @@
     ],
     "description": "从@tarojs/redux引入connect"
   },
+  "import {} from @tarojs/redux": {
+    "prefix": "taroird",
+    "body": [
+      "import { $1 } from '@tarojs/redux'"
+    ],
+    "description": "从@tarojs/redux局部引入"
+  },
   "import connect from @tarojs/mobx": {
     "prefix": "taroim",
     "body": [
       "import {inject, observer} from '@tarojs/mobx'"
     ],
     "description": "从@tarojs/mobx引入inject/observer"
+  },
+  "import {} from @tarojs/mobx": {
+    "prefix": "taroimd",
+    "body": [
+      "import { $1 } from '@tarojs/mobx'"
+    ],
+    "description": "从@tarojs/mobx局部引入"
+  },
+  "import { } from @tarojs/?": {
+    "prefix": "taroimm",
+    "body": [
+      "import { $2 } from '@tarojs/$1'"
+    ],
+    "description": "从@tarojs局部引入"
   }
 }
