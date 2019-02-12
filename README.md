@@ -1,4 +1,4 @@
-# VSCode-taro-snippets
+#c VSCode-taro-snippets
 
 为了少敲重复代码,节约时间,这个东东就出来了;
 
@@ -16,7 +16,7 @@
 
 # 效果
 
-![演示Demo](./images/show.gif)
+![演示Demo](images/show.gif)
 
 
 ---
@@ -146,7 +146,11 @@ import { connect } from '@tarojs/redux'
 import {inject, observer} from '@tarojs/mobx'
 ```
 
+- `imo`
 
+```javascript
+import { action, observable, computed, toJS } from 'mobx'
+```
 
 
 ---

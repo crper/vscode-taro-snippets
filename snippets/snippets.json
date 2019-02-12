@@ -119,5 +119,12 @@
       "import { $2 } from '@tarojs/$1'"
     ],
     "description": "从@tarojs局部引入"
+  },
+  "import { action, observable, computed, toJS } from 'mobx';": {
+    "prefix": "imo",
+    "body": [
+      "import { action, observable, computed, toJS } from 'mobx'"
+    ],
+    "description": "import { action, observable, computed, toJS } from 'mobx';"
   }
 }
